@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!-- Trees -->
+ <project path="device/xiaomi/raphael" name="WasikFahim69/WF_device_xiaomi_raphael.git" remote="github" revision="sos-12" />
+ <project path="vendor/xiaomi/raphael" name="WasikFahim69/vendor_xiaomi_raphael.git" remote="github" revision="12l" />
+ <project path="kernel/xiaomi/raphael" name="WasikFahim69/kernel_xiaomi_raphael.git" remote="github" revision="12l" />
+
+ <!--Hals-->
+<remove-project name="android_hardware_qcom_display" />
+<project path="hardware/qcom-caf/sm8150/display" name="PptO07/hardware_qcom_display.git" remote="github" revision="12-sm8150" />
+
+<!--Trb Clang-->
+<project path="prebuilts/clang/host/linux-x86/trb_clang" name="varunhardgamer/trb_clang.git" remote="gitlab" revision="16" />
+
+ 
+</manifest>
