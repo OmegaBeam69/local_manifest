@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
+<remote name="github" fetch="https://github.com/" />
+ <remote name="gitlab" fetch="https://gitlab.com/" />
  <!-- Trees -->
  <project path="device/xiaomi/raphael" name="WasikFahim69/WF_device_xiaomi_raphael.git" remote="github" revision="sos-12" />
  <project path="vendor/xiaomi/raphael" name="WasikFahim69/vendor_xiaomi_raphael.git" remote="github" revision="12l" />
