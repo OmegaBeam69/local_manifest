@@ -3,7 +3,7 @@
 <remote name="github" fetch="https://github.com/" />
  <remote name="gitlab" fetch="https://gitlab.com/" />
  <!-- Trees -->
- <project path="device/xiaomi/raphael" name="WasikFahim69/device_xiaomi_raphael.git" remote="github" revision="bootleg-13" />
+ <project path="device/xiaomi/raphael" name="WasikFahim69/WF_device_xiaomi_raphael.git" remote="github" revision="bootleg-13" />
  <project path="vendor/xiaomi/raphael" name="WasikFahim69/vendor_xiaomi_raphael.git" remote="github" revision="13" />
  <project path="kernel/xiaomi/raphael" name="WasikFahim69/kernel_xiaomi_raphael.git" remote="github" revision="13" />
 
