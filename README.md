@@ -1,2 +1,2 @@
 # local_manifest
-Unofficial Build For Superior OS A12L
+Unofficial Build For Bootleggers OS A12L
