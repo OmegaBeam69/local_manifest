@@ -9,8 +9,11 @@
 
  <!--Hals-->
 <remove-project name="android_hardware_qcom_display" />
-<project path="hardware/qcom-caf/sm8150/display" name="PptO07/hardware_qcom_display.git" remote="hub" revision="12-sm8150" />
+<project path="hardware/qcom-caf/sm8150/display" name="VoltageOS/hardware_qcom_display.git" remote="hub" revision="12-sm8150" />
 
+ <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings.git" remote="hub" revision="lineage-20.0" />
+
+ 
 <!--Trb Clang-->
 <project path="prebuilts/clang/host/linux-x86/trb_clang" name="varunhardgamer/trb_clang.git" remote="lab" revision="16" />
 
