@@ -3,15 +3,17 @@
 <remote name="hub" fetch="https://github.com/" />
  <remote name="lab" fetch="https://gitlab.com/" />
  <!-- Trees -->
- <project path="device/xiaomi/raphael" name="WasikFahim69/WF_device_xiaomi_raphael.git" remote="hub" revision="bootleg-13" />
- <project path="vendor/xiaomi/raphael" name="WasikFahim69/vendor_xiaomi_raphael.git" remote="hub" revision="13" />
- <project path="kernel/xiaomi/raphael" name="WasikFahim69/kernel_xiaomi_raphael.git" remote="hub" revision="13" />
+ <project path="device/xiaomi/raphael" name="WasikFahim69/WF_device_xiaomi_raphael.git" remote="hub" revision="sp-13" />
+ <project path="vendor/xiaomi/raphael" name="VoltageOS/vendor_xiaomi_raphael.git" remote="hub" revision="13" />
+ <project path="kernel/xiaomi/raphael" name="VoltageOS/kernel_xiaomi_raphael.git" remote="hub" revision="13" />
 
  <!--Hals-->
 <remove-project name="android_hardware_qcom_display" />
 <project path="hardware/qcom-caf/sm8150/display" name="VoltageOS/hardware_qcom_display.git" remote="hub" revision="12-sm8150" />
 
- <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings.git" remote="hub" revision="lineage-20.0" />
+<!--Device Settings-->
+<remove-project name="android_packages_resources_devicesettings" />
+<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings.git" remote="hub" revision="lineage-20.0" />
 
  
 <!--Trb Clang-->
