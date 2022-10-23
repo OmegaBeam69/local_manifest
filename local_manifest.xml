@@ -9,7 +9,7 @@
 
  <!--Hals-->
 <remove-project name="android_hardware_qcom_display" />
-<project path="hardware/qcom-caf/sm8150/display" name="Ppto07/hardware_qcom_display.git" remote="hub" revision="12-sm8150" />
+<project path="hardware/qcom-caf/sm8150/display" name="WasikFahim69/hardware_qcom_display.git" remote="hub" revision="12-sm8150" />
 
 <!--Device Settings-->
 <remove-project name="android_packages_resources_devicesettings" />
