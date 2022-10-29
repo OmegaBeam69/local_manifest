@@ -16,8 +16,8 @@
 <!--project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings.git" remote="hub" revision="lineage-20.0" -->
 
  
-<!--Trb Clang-->
-<project path="prebuilts/clang/host/linux-x86/trb_clang" name="varunhardgamer/trb_clang.git" remote="lab" revision="16" />
+<!--Proton Clang-->
+<project path="prebuilts/clang/host/linux-x86/proton-clang" name="kdrag0n/proton-clang.git" remote="hub" revision="master" />
 
  
 </manifest>
