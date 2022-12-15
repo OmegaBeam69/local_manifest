@@ -11,6 +11,9 @@
 <remove-project name="android_hardware_qcom_display" />
 <project path="hardware/qcom-caf/sm8150/display" name="OmegaBeam69/hardware_qcom_display.git" remote="hub" revision="12-sm8150" />
 
+<!--V4A-->
+<project path="vendor/v4afx" name="DanipunK1/vendor_v4afx.git" remote="hub" revision="twelve" />
+
 <!--Azure Clang-->
 <project path="prebuilts/clang/host/linux-x86/azure-clang" name="Panchajanya1999/azure-clang.git" remote="lab" revision="main" />
 
