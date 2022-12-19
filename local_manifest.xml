@@ -16,6 +16,7 @@
 
 <!--Azure Clang-->
 <project path="prebuilts/clang/host/linux-x86/azure-clang" name="Panchajanya1999/azure-clang.git" remote="lab" revision="main" />
-
+<!-- clang-r450784d-->
+<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d.git" remote="lab" revision="master" />
  
 </manifest>
