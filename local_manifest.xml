@@ -5,17 +5,17 @@
  <!-- Trees -->
  <project path="device/xiaomi/raphael" name="OmegaBeam69/WF_device_xiaomi_raphael.git" remote="hub" revision="spark-13" />
  <project path="vendor/xiaomi/raphael" name="OmegaBeam69/vendor_xiaomi_raphael.git" remote="hub" revision="13" />
- <project path="kernel/xiaomi/raphael" name="OmegaBeam69/kernel_xiaomi_raphael.git" remote="hub" revision="kt-13" />
+ <project path="kernel/xiaomi/raphael" name="OmegaBeam69/bool-x_xiaomi_raphael.git" remote="hub" revision="thirteen" />
 
  <!--Hals-->
 <remove-project name="android_hardware_qcom_display" />
 <project path="hardware/qcom-caf/sm8150/display" name="OmegaBeam69/hardware_qcom_display.git" remote="hub" revision="12-sm8150" />
 
 <!--V4A-->
-<project path="vendor/v4afx" name="DanipunK1/vendor_v4afx.git" remote="hub" revision="twelve" />
+<!--project path="vendor/v4afx" name="DanipunK1/vendor_v4afx.git" remote="hub" revision="twelve" -->
 
-<!--Azure Clang-->
-<project path="prebuilts/clang/host/linux-x86/azure-clang" name="Panchajanya1999/azure-clang.git" remote="lab" revision="main" />
+<!--Boolx Clang-->
+<project path="prebuilts/clang/host/linux-x86/boolx-clang" name="onettboots/boolx-clang.git" remote="lab" revision="Clang-15.0" />
 <!-- clang-r450784d-->
 <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d.git" remote="lab" revision="master" />
  
