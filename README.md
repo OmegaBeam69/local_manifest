@@ -1,2 +1,2 @@
 # local_manifest
-Unofficial Build For Spark OS A13
+Unofficial Build For Bananadroid OS A13
