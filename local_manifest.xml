@@ -12,7 +12,7 @@
 <project path="packages/apps/KProfiles" name="OmegaBeam69/Boolx_apps_KProfiles.git" remote="hub" revision="main" />
 
  <!--Hals-->
-<remove-project name="android_hardware_qcom_sm8150_display" />
+<remove-project name="crdroidandroid/android_hardware_qcom_display" />
 <project path="hardware/qcom-caf/sm8150/display" name="OmegaBeam69/hardware_qcom_display.git" remote="hub" revision="12-sm8150" />
 
 <!--Boolx Clang-->
