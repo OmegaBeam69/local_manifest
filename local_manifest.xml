@@ -19,6 +19,6 @@
 <project path="prebuilts/clang/host/linux-x86/boolx-clang" name="onettboots/boolx-clang.git" remote="lab" revision="Clang-16.0_x86" /> 
 
 <!-- clang-r450784d-->
-<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d.git" remote="lab" revision="master" />
+<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d.git" remote="lab" revision="master" />
 
 </manifest>
