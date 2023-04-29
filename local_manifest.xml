@@ -5,7 +5,7 @@
  <!-- Trees -->
  <project path="device/xiaomi/raphael" name="OmegaBeam69/WF_device_xiaomi_raphael.git" remote="hub" revision="spark-n13" />
  <project path="vendor/xiaomi/raphael" name="OmegaBeam69/vendor_xiaomi_raphael.git" remote="hub" revision="void-13" />
- <project path="kernel/xiaomi/raphael" name="OmegaBeam69/bool-x_xiaomi_raphael.git" remote="hub" revision="saaya1" />
+ <project path="kernel/xiaomi/raphael" name="onettboots/bool-x_xiaomi_raphael.git" remote="hub" revision="saaya1" />
 
 <!--KProfile-->
 <project path="packages/apps/KProfiles" name="SageOfD6Path/Boolx_apps_KProfiles.git" remote="hub" revision="main" />
