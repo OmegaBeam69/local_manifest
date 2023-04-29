@@ -10,6 +10,9 @@
 <!--KProfile-->
 <project path="packages/apps/KProfiles" name="SageOfD6Path/Boolx_apps_KProfiles.git" remote="hub" revision="main" />
 
+<!--Miui Camera-->
+project path="vendor/xiaomi/miuicamera" name="SageOfD6Path/vendor_xiaomi_miuicamera.git" remote="lab" revision="miui" />
+
 <!--hardware xiaomi-->
 <remove-project name="hardware_xiaomi" />
 <project path="hardware/xiaomi" name="SageOfD6Path/android_hardware_xiaomi.git" remote="hub" revision="thirteen" />
