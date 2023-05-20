@@ -18,7 +18,7 @@
 <project path="hardware/xiaomi" name="OmegaBeam69/android_hardware_xiaomi.git" remote="hub" revision="spark-n13" />
 
  <!--Hals-->
-<remove-project name="android_hardware_qcom_display" />
+<remove-project name="LineageOS/android_hardware_qcom_display" />
 <project path="hardware/qcom-caf/sm8150/display" name="OmegaBeam69/hardware_qcom_display.git" remote="hub" revision="13-sm8150" />
 
 <!--V4A-->
