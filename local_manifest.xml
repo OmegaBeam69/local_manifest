@@ -11,7 +11,7 @@
 <project path="packages/apps/KProfiles" name="SageOfD6Path/android_packages_apps_Kprofiles.git" remote="hub" revision="main" />
 
 <!--Miui Camera-->
-<project path="vendor/xiaomi/miuicamera" name="SageOfD6Path/vendor_xiaomi_miuicamera.git" remote="lab" revision="miui" />
+<project path="vendor/xiaomi/miuicamera" name="ItzDFPlayer/vendor_davinci-miuicamera.git" remote="lab" revision="leica+miui-raphael" />
 
 <!--hardware xiaomi-->
 <remove-project name="hardware_xiaomi" />
