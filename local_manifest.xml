@@ -31,6 +31,11 @@
 <project path="prebuilts/clang/host/linux-x86/boolx-clang" name="onettboots/boolx-clang.git" remote="lab" revision="Clang-17.0_x86" />
 <!-- clang-r450784d-->
 <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d.git" remote="lab" revision="master" />
+
+<!--Interfaces-->
+<remove-project name="LineageOS/android_hardware_lineage_interfaces" />
+<project path="hardware/lineage/interfaces" name="OmegaBeam69/android_hardware_lineage_interfaces.git" remote="hub" revision="spark-13" />
+
  
  <!-- Frameworks -->
  <remove-project name="frameworks_base" />
