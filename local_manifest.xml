@@ -31,5 +31,11 @@
 <project path="prebuilts/clang/host/linux-x86/boolx-clang" name="onettboots/boolx-clang.git" remote="lab" revision="Clang-17.0_x86" />
 <!-- clang-r450784d-->
 <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d.git" remote="lab" revision="master" />
+
+<remove-project name="android_vendor_qcom_opensource_display-commonsys" />
+<project path="vendor/qcom/opensource/commonsys/display" name="OmegaBeam69/android_vendor_qcom_opensource_display-commonsys" remote="hub" revision="cherish-t" />
+
+
  
 </manifest>
+
