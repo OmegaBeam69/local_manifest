@@ -35,7 +35,9 @@
 <remove-project name="android_vendor_qcom_opensource_display-commonsys" />
 <project path="vendor/qcom/opensource/commonsys/display" name="OmegaBeam69/android_vendor_qcom_opensource_display-commonsys" remote="hub" revision="cherish-t" />
 
-
+<!--Sepolicy Legacy-->
+<remove-project name="android_device_qcom_sepolicy_vndr-legacy-um" />
+<project path="device/qcom/sepolicy_vndr-legacy-um" name="OmegaBeam69/android_device_qcom_sepolicy_vndr-legacy-um.git" remote="hub" revision="cherish-t" />
  
 </manifest>
 
