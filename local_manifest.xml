@@ -24,6 +24,10 @@
 <remove-project name="LineageOS/android_hardware_qcom_display" />
 <project path="hardware/qcom-caf/sm8150/display" name="OmegaBeam69/hardware_qcom_display.git" remote="hub" revision="13-sm8150" />
 
+<!-- Aperture -->
+ <remove-project name="LineageOS/android_packages_apps_Aperture" />
+<project path="packages/apps/Aperture" name="OmegaBeam69/android_packages_apps_Aperture.git" remote="hub" revision="spark" />
+
 <!--V4A-->
 <project path="vendor/v4afx" name="DanipunK1/vendor_v4afx.git" remote="hub" revision="twelve" />
 
