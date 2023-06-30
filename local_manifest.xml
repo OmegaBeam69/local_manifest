@@ -8,7 +8,7 @@
  <project path="kernel/xiaomi/raphael" name="onettboots/bool-x_xiaomi_raphael.git" remote="hub" revision="saaya1" />
 
 <!--KProfile-->
-<project path="packages/apps/KProfiles" name="SageOfD6Path/android_packages_apps_Kprofiles.git" remote="hub" revision="main" />
+<!--project path="packages/apps/KProfiles" name="SageOfD6Path/android_packages_apps_Kprofiles.git" remote="hub" revision="main" -->
 
 <!--Miui Camera-->
 <project path="vendor/xiaomi/miuicamera" name="ItzDFPlayer/vendor_davinci-miuicamera.git" remote="lab" revision="leica+miui-raphael" />
