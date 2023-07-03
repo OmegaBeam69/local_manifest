@@ -3,7 +3,7 @@
 <remote name="hub" fetch="https://github.com/" />
  <remote name="lab" fetch="https://gitlab.com/" />
  <!-- Trees -->
- <project path="device/xiaomi/raphael" name="OmegaBeam69/WF_device_xiaomi_raphael.git" remote="hub" revision="cherish-t" />
+ <project path="device/xiaomi/raphael" name="OmegaBeam69/WF_device_xiaomi_raphael.git" remote="hub" revision="arrow-13.1" />
  <project path="vendor/xiaomi/raphael" name="OmegaBeam69/vendor_xiaomi_raphael.git" remote="hub" revision="void-13" />
  <project path="kernel/xiaomi/raphael" name="onettboots/bool-x_xiaomi_raphael.git" remote="hub" revision="saaya1" />
 
@@ -14,14 +14,10 @@
 <project path="vendor/xiaomi/miuicamera" name="ItzDFPlayer/vendor_davinci-miuicamera.git" remote="lab" revision="leica+miui-raphael" />
 
 <!--hardware xiaomi-->
-<remove-project name="android_hardware_xiaomi" />
-<project path="hardware/xiaomi" name="OmegaBeam69/android_hardware_xiaomi.git" remote="hub" revision="spark-n13" />
 
- <!--Hals-->
- <remove-project name="android_vendor_qcom_opensource_display-commonsys-intf" />
- <project path="vendor/qcom/opensource/commonsys-intf/display" name="OmegaBeam69/vendor_qcom_opensource_display-commonsys-intf.git" remote="hub" revision="Spark-13" />
+<project path="hardware/xiaomi" name="OmegaBeam69/android_hardware_xiaomi.git" remote="hub" revision="spark-n13" />
  
-<remove-project name="LineageOS/android_hardware_qcom_display" />
+<remove-project name="android_hardware_qcom_display" />
 <project path="hardware/qcom-caf/sm8150/display" name="OmegaBeam69/hardware_qcom_display.git" remote="hub" revision="13-sm8150" />
 
 <!--V4A-->
@@ -32,12 +28,5 @@
 <!-- clang-r450784d-->
 <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d.git" remote="lab" revision="master" />
 
-<remove-project name="android_vendor_qcom_opensource_display-commonsys" />
-<project path="vendor/qcom/opensource/commonsys/display" name="OmegaBeam69/android_vendor_qcom_opensource_display-commonsys" remote="hub" revision="cherish-t" />
-
-<!--Sepolicy Legacy-->
-<remove-project name="android_device_qcom_sepolicy_vndr-legacy-um" />
-<project path="device/qcom/sepolicy_vndr-legacy-um" name="OmegaBeam69/android_device_qcom_sepolicy_vndr-legacy-um.git" remote="hub" revision="cherish-t" />
- 
 </manifest>
 
