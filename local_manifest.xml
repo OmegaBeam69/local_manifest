@@ -15,7 +15,7 @@
 
 <!--hardware xiaomi-->
 <remove-project name="android_hardware_xiaomi" />
-<project path="hardware/xiaomi" name="OmegaBeam69/android_hardware_xiaomi.git" remote="hub" revision="spark-n13" />
+<project path="hardware/xiaomi" name="OmegaBeam69/android_hardware_xiaomi.git" remote="hub" revision="cherish-13" />
 
  <!--Hals-->
  <remove-project name="android_vendor_qcom_opensource_display-commonsys-intf" />
