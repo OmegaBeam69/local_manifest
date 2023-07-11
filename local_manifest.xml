@@ -3,30 +3,24 @@
 <remote name="hub" fetch="https://github.com/" />
  <remote name="lab" fetch="https://gitlab.com/" />
  <!-- Trees -->
- <project path="device/xiaomi/raphael" name="OmegaBeam69/WF_device_xiaomi_raphael.git" remote="hub" revision="spark-a13" />
+ <project path="device/xiaomi/raphael" name="OmegaBeam69/WF_device_xiaomi_raphael.git" remote="hub" revision="derp-13" />
  <project path="vendor/xiaomi/raphael" name="OmegaBeam69/vendor_xiaomi_raphael.git" remote="hub" revision="void-13" />
- <project path="kernel/xiaomi/raphael" name="onettboots/bool-x_xiaomi_raphael.git" remote="hub" revision="saaya1" />
+ <project path="kernel/xiaomi/raphael" name="OmegaBeam69/kernel_xiaomi_raphael.git" remote="hub" revision="stand-qcom-compliant"  />
 
 <!--KProfile-->
-<project path="packages/apps/KProfiles" name="SageOfD6Path/android_packages_apps_Kprofiles.git" remote="hub" revision="main" />
+<!--project path="packages/apps/KProfiles" name="SageOfD6Path/android_packages_apps_Kprofiles.git" remote="hub" revision="main" >
 
 <!--Miui Camera-->
-<project path="vendor/xiaomi/miuicamera" name="ItzDFPlayer/vendor_davinci-miuicamera.git" remote="lab" revision="leica+miui-raphael" />
+<!--project path="vendor/xiaomi/miuicamera" name="ItzDFPlayer/vendor_davinci-miuicamera.git" remote="lab" revision="leica+miui-raphael" -->
 
 <!--hardware xiaomi-->
-<remove-project name="hardware_xiaomi" />
+<!--remove-project name="hardware_xiaomi" -->
 <project path="hardware/xiaomi" name="OmegaBeam69/android_hardware_xiaomi.git" remote="hub" revision="spark-n13" />
 
- <!--Hals-->
- <remove-project name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" />
- <project path="vendor/qcom/opensource/commonsys-intf/display" name="OmegaBeam69/vendor_qcom_opensource_display-commonsys-intf.git" remote="hub" revision="Spark-13" />
- 
-<remove-project name="LineageOS/android_hardware_qcom_display" />
-<project path="hardware/qcom-caf/sm8150/display" name="OmegaBeam69/hardware_qcom_display.git" remote="hub" revision="13-sm8150" />
+<!-- Display Hal--> 
+<remove-project name="android_hardware_qcom_display" />
+<project path="hardware/qcom/sm8150/display" name="OmegaBeam69/hardware_qcom_display.git" remote="hub" revision="13-sm8150" />
 
-<!-- Aperture -->
- <remove-project name="LineageOS/android_packages_apps_Aperture" />
-<project path="packages/apps/Aperture" name="OmegaBeam69/android_packages_apps_Aperture.git" remote="hub" revision="spark" />
 
 <!--V4A-->
 <project path="vendor/v4afx" name="DanipunK1/vendor_v4afx.git" remote="hub" revision="twelve" />
@@ -35,12 +29,6 @@
 <project path="prebuilts/clang/host/linux-x86/boolx-clang" name="onettboots/boolx-clang.git" remote="lab" revision="Clang-17.0_x86" />
 <!-- clang-r450784d-->
 <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d.git" remote="lab" revision="master" />
- 
- <!-- Frameworks -->
- <remove-project name="frameworks_base" />
- <remove-project name="frameworks_av" />
-  <project path="frameworks/base" name="OmegaBeam69/frameworks_base.git" remote="hub" revision="mypyro" />
-   <project path="frameworks/av" name="OmegaBeam69/frameworks_av.git" remote="hub" revision="mypyro" />
  
  
 </manifest>
