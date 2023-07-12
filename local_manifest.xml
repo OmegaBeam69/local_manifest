@@ -8,7 +8,7 @@
  <project path="kernel/xiaomi/raphael" name="OmegaBeam69/kernel_xiaomi_raphael.git" remote="hub" revision="stand-qcom-compliant"  />
 
 <!--KProfile-->
-<!--project path="packages/apps/KProfiles" name="SageOfD6Path/android_packages_apps_Kprofiles.git" remote="hub" revision="main" >
+<!--project path="packages/apps/KProfiles" name="SageOfD6Path/android_packages_apps_Kprofiles.git" remote="hub" revision="main"-- >
 
 <!--Miui Camera-->
 <!--project path="vendor/xiaomi/miuicamera" name="ItzDFPlayer/vendor_davinci-miuicamera.git" remote="lab" revision="leica+miui-raphael" -->
