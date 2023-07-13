@@ -19,7 +19,7 @@
 
 <!-- Display Hal--> 
 <remove-project name="hardware_qcom_display" />
-<project path="hardware/qcom/sm8150/display" name="OmegaBeam69/hardware_qcom_display.git" remote="hub" revision="13-sm8150" />
+<project path="hardware/qcom-caf/sm8150/display" name="OmegaBeam69/hardware_qcom_display.git" remote="hub" revision="13-sm8150" />
 
 
 <!--V4A-->
