@@ -3,7 +3,7 @@
 <remote name="hub" fetch="https://github.com/" />
  <remote name="lab" fetch="https://gitlab.com/" />
  <!-- Trees -->
- <project path="device/xiaomi/raphael" name="OmegaBeam69/WF_device_xiaomi_raphael.git" remote="hub" revision="derp-13" />
+ <project path="device/xiaomi/raphael" name="OmegaBeam69/WF_device_xiaomi_raphael.git" remote="hub" revision="aicp-13" />
  <project path="vendor/xiaomi/raphael" name="OmegaBeam69/vendor_xiaomi_raphael.git" remote="hub" revision="13.0" />
  <project path="kernel/xiaomi/raphael" name="OmegaBeam69/kernel_xiaomi_raphael.git" remote="hub" revision="stand-qcom-compliant"  />
 
@@ -18,15 +18,15 @@
 <project path="hardware/xiaomi" name="OmegaBeam69/android_hardware_xiaomi.git" remote="hub" revision="spark-n13" />
 
 <!-- Display Hal--> 
-<remove-project name="hardware_qcom_display" />
+<remove-project name="LineageOS/android_hardware_qcom_display" />
 <project path="hardware/qcom-caf/sm8150/display" name="OmegaBeam69/hardware_qcom_display.git" remote="hub" revision="13-sm8150" />
 
- <remove-project name="vendor_qcom_opensource_commonsys-intf_display" />
+ <remove-project name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" />
  <project path="vendor/qcom/opensource/commonsys-intf/display" name="OmegaBeam69/vendor_qcom_opensource_display-commonsys-intf.git" remote="hub" revision="Spark-13" />
  
 
 <!--V4A-->
-<project path="vendor/v4afx" name="DanipunK1/vendor_v4afx.git" remote="hub" revision="twelve" />
+<!--project path="vendor/v4afx" name="DanipunK1/vendor_v4afx.git" remote="hub" revision="twelve" -->
 
 <!--Boolx Clang-->
 <project path="prebuilts/clang/host/linux-x86/boolx-clang" name="onettboots/boolx-clang.git" remote="lab" revision="Clang-17.0_x86" />
