@@ -4,7 +4,7 @@
  <remote name="lab" fetch="https://gitlab.com/" />
  <!-- Trees -->
  <project path="device/xiaomi/raphael" name="OmegaBeam69/WF_device_xiaomi_raphael.git" remote="hub" revision="cherish-13" />
- <project path="vendor/xiaomi/raphael" name="OmegaBeam69/vendor_xiaomi_raphael.git" remote="hub" revision="void-13" />
+ <project path="vendor/xiaomi/raphael" name="OmegaBeam69/vendor_xiaomi_raphael.git" remote="hub" revision="13.0" />
  <project path="kernel/xiaomi/raphael" name="OmegaBeam69/kernel_xiaomi_raphael.git" remote="hub" revision="stand-qcom-compliant" />
 
 <!--KProfile-->
@@ -25,7 +25,7 @@
 <project path="hardware/qcom-caf/sm8150/display" name="OmegaBeam69/hardware_qcom_display.git" remote="hub" revision="13-sm8150" />
 
 <!--V4A-->
-<project path="vendor/v4afx" name="DanipunK1/vendor_v4afx.git" remote="hub" revision="twelve" />
+<!--project path="vendor/v4afx" name="DanipunK1/vendor_v4afx.git" remote="hub" revision="twelve" -->
 
 <!--Boolx Clang-->
 <project path="prebuilts/clang/host/linux-x86/boolx-clang" name="onettboots/boolx-clang.git" remote="lab" revision="Clang-17.0_x86" />
@@ -38,6 +38,9 @@
 <!--Sepolicy Legacy-->
 <remove-project name="android_device_qcom_sepolicy_vndr-legacy-um" />
 <project path="device/qcom/sepolicy_vndr-legacy-um" name="OmegaBeam69/android_device_qcom_sepolicy_vndr-legacy-um.git" remote="hub" revision="cherish-t" />
+
+<remove-project name="android_packages_apps_SimpleDeviceConfig" />
+ <project path="packages/apps/SimpleDeviceConfig" name="OmeagBeam69/android_packages_apps_SimpleDeviceConfig"  remote="hub" revision="cherish" />
  
 </manifest>
 
