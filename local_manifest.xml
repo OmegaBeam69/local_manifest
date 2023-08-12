@@ -39,8 +39,6 @@
 <remove-project name="android_device_qcom_sepolicy_vndr-legacy-um" />
 <project path="device/qcom/sepolicy_vndr-legacy-um" name="OmegaBeam69/android_device_qcom_sepolicy_vndr-legacy-um.git" remote="hub" revision="cherish-t" />
 
-<remove-project name="android_packages_apps_SimpleDeviceConfig" />
- <project path="packages/apps/SimpleDeviceConfig" name="OmegaBeam69/android_packages_apps_SimpleDeviceConfig"  remote="hub" revision="cherish" />
  
 </manifest>
 
