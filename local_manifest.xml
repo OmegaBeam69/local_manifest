@@ -2,7 +2,7 @@
 <manifest>
 <remote name="hub" fetch="https://github.com/" />
  <remote name="lab" fetch="https://gitlab.com/" />
-<remote  name="lineage" fetch="https://github.com/LineageOS" />
+<!--remote  name="lineage" fetch="https://github.com/LineageOS" -->
 
  <!-- Trees -->
  <project path="device/xiaomi/raphael" name="OmegaBeam69/WF_device_xiaomi_raphael.git" remote="hub" revision="bliss-13" />
@@ -11,7 +11,7 @@
 
 <!--Chromium Webview-->   
 <remove-project name="android_external_chromium-webview_prebuilt_arm64" />
-<project path="external/chromium-webview/prebuilt/arm64" name="android_external_chromium-webview_prebuilt_arm64" remote="lineage" revision="backup/main_20230314" />
+<project path="external/chromium-webview/prebuilt/arm64" name="LineageOS/android_external_chromium-webview_prebuilt_arm64" remote="hub" revision="backup/main_20230314" />
    
 <!--KProfile-->
 <!--project path="packages/apps/KProfiles" name="SageOfD6Path/android_packages_apps_Kprofiles.git" remote="hub" revision="main" -->
