@@ -5,7 +5,7 @@
  <!-- Trees -->
  <project path="device/xiaomi/raphael" name="OmegaBeam69/WF_device_xiaomi_raphael.git" remote="hub" revision="spark-pn" />
  <project path="vendor/xiaomi/raphael" name="OmegaBeam69/vendor_xiaomi_raphael.git" remote="hub" revision="13.0" />
- <project path="kernel/xiaomi/raphael" name="Pc1598/kernel_xiaomi_raphael.git" remote="hub" revision="topaz" />
+ <project path="kernel/xiaomi/raphael" name="OmegaBeam69/kernel_xiaomi_raphael.git" remote="hub" revision="stand-qcom-compliant" />
 
 <!--Miui Camera-->
 <project path="vendor/xiaomi/miuicamera" name="ItzDFPlayer/vendor_davinci-miuicamera.git" remote="lab" revision="leica+miui-raphael" />
