@@ -11,7 +11,7 @@
 <!--project path="packages/apps/KProfiles" name="SageOfD6Path/android_packages_apps_Kprofiles.git" remote="hub" revision="main" -->
 
 <!--Miui Camera-->
-<project path="vendor/xiaomi/miuicamera" name="ItzDFPlayer/vendor_davinci-miuicamera.git" remote="lab" revision="leica+miui-raphael" />
+<project path="vendor/xiaomi/miuicamera" name="ItzDFPlayer/vendor_davinci-miuicamera.git" remote="lab" revision="leica-5.0-raphael" />
 
 <!--hardware xiaomi-->
 
@@ -21,7 +21,7 @@
 <project path="hardware/qcom-caf/sm8150/display" name="OmegaBeam69/hardware_qcom_display.git" remote="hub" revision="13-sm8150" />
 
 <!--V4A-->
-<project path="vendor/v4afx" name="DanipunK1/vendor_v4afx.git" remote="hub" revision="twelve" />
+<!--project path="vendor/v4afx" name="DanipunK1/vendor_v4afx.git" remote="hub" revision="twelve" -->
 
 <!--Boolx Clang-->
 <project path="prebuilts/clang/host/linux-x86/boolx-clang" name="onettboots/boolx-clang.git" remote="lab" revision="Clang-17.0_x86" />
