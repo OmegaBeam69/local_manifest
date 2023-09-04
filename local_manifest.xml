@@ -5,7 +5,7 @@
  <!-- Trees -->
  <project path="device/xiaomi/raphael" name="OmegaBeam69/WF_device_xiaomi_raphael.git" remote="hub" revision="arrow-13.1" />
  <project path="vendor/xiaomi/raphael" name="OmegaBeam69/vendor_xiaomi_raphael.git" remote="hub" revision="13.0" />
- <project path="kernel/xiaomi/raphael" name="OmegaBeam69/xiaomi_raphael.git" remote="hub" revision="stand-qcom-compliant" />
+ <project path="kernel/xiaomi/raphael" name="SOVIET-ANDROID/xiaomi_raphael.git" remote="hub" revision="stand-qcom-compliant" />
 
 <!--KProfile-->
 <!--project path="packages/apps/KProfiles" name="SageOfD6Path/android_packages_apps_Kprofiles.git" remote="hub" revision="main" -->
