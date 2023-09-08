@@ -25,6 +25,10 @@
  <remove-project name="LineageOS/android_packages_apps_Aperture" />
 <project path="packages/apps/Aperture" name="OmegaBeam69/android_packages_apps_Aperture.git" remote="hub" revision="spark" />
 
+ <!--Soong-->
+<remove-project name= "build_soong"/>
+ <project path="build/soong" name="OmegaBeam69/build_soong" remote="hub" revision="pyro-next" />
+ 
 
 <!--Boolx Clang-->
 <project path="prebuilts/clang/host/linux-x86/boolx-clang" name="onettboots/boolx-clang.git" remote="lab" revision="Clang-17.0_x86" />
