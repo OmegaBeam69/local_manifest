@@ -11,7 +11,7 @@
 <project path="vendor/xiaomi/miuicamera" name="ItzDFPlayer/vendor_davinci-miuicamera.git" remote="lab" revision="leica-5.0-raphael" />
 
  <!--Hardware Xiaomi-->
-<remove-project name="LineageOS/android_hardware_xiaomi" />
+<remove-project name="hardware_xiaomi" />
 <project path="hardware/xiaomi" name="OmegaBeam69/android_hardware_xiaomi.git" remote="hub" revision="spark-n13" />
 
  <!--Hals-->
