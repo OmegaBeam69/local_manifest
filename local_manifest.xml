@@ -21,6 +21,10 @@
 <remove-project name="LineageOS/android_hardware_qcom_display" />
 <project path="hardware/qcom-caf/sm8150/display" name="OmegaBeam69/hardware_qcom_display.git" remote="hub" revision="13-sm8150" />
 
+
+ <!-- Interfaces-->
+ <remove-project name="LineageOS/android_hardware_interfaces" />
+ <project name= "hardware/interfaces" name="OmegaBeam69/android_hardware_interfaces.git" remote="hub" revision="lineage-20.0" />
 <!-- Aperture -->
  <remove-project name="LineageOS/android_packages_apps_Aperture" />
 <project path="packages/apps/Aperture" name="OmegaBeam69/android_packages_apps_Aperture.git" remote="hub" revision="spark" />
