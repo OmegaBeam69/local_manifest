@@ -16,7 +16,7 @@
 <project path="hardware/qcom-caf/sm8150/display" name="OmegaBeam69/platform_hardware_qcom_display.git" remote="hub" revision="fifteen" />
 
 <!--audio-->
-<remove-project name="LineageOS/android_hardware_qcom_sm8150" />
+<remove-project name="LineageOS/android_hardware_qcom_audio" />
 <project path="hardware/qcom-caf/sm8150/audio" name="OmegaBeam69/hardware_qcom-caf_sm8150_audio" remote="hub" revision="fifteen" />
 
 <!--media-->
