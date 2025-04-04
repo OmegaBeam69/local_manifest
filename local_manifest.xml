@@ -12,7 +12,7 @@
                          <!--Hals-->
 
 <!--display-->
-<remove-project name="LineageOS/android_hardware_qcom_sm8150_display" />
+<remove-project name="LineageOS/android_hardware_qcom_display" />
 <project path="hardware/qcom-caf/sm8150/display" name="OmegaBeam69/platform_hardware_qcom_display.git" remote="hub" revision="fifteen" />
 
 <!--audio-->
