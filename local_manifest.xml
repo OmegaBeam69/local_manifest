@@ -22,5 +22,7 @@
 <!--media-->
 <remove-project name="LineageOS/android_hardware_qcom_media" />
 <project path="hardware/qcom-caf/sm8150/media" name="OmegaBeam69/hardware_qcom-caf_sm8150_media.git" remote="hub" revision="fiften" />
- 
+
+ <!--Hardware Xiaomi-->
+<project path="hardware/xiaomi" name="OmegaBeam69/android_hardware_xiaomi.git" remote="hub" revision="15.0" />
 </manifest>
