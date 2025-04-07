@@ -25,4 +25,7 @@
 
  <!--Hardware Xiaomi-->
 <project path="hardware/xiaomi" name="OmegaBeam69/android_hardware_xiaomi.git" remote="hub" revision="15.0" />
+<!--Paranoid Sense-->
+<remove-project name="packages_apps_ParanoidSense" />
+
 </manifest>
