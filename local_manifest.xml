@@ -16,16 +16,18 @@
 <project path="hardware/qcom-caf/sm8150/display" name="OmegaBeam69/platform_hardware_qcom_display.git" remote="hub" revision="fifteen" />
 
 <!--audio-->
-<!--remove-project name="LineageOS/android_hardware_qcom_audio"-->
-<!--project path="hardware/qcom-caf/sm8150/audio" name="OmegaBeam69/hardware_qcom-caf_sm8150_audio" remote="hub" revision="fifteen" -->
+<remove-project name="LineageOS/android_hardware_qcom_audio"/>
+<project path="hardware/qcom-caf/sm8150/audio" name="LineageOS/android_hardware_qcom_audio.git" remote="hub" revision="lineage-22.2-caf-sm8150" />
 
 <!--media-->
-<!--remove-project name="LineageOS/android_hardware_qcom_media" -->
-<!--project path="hardware/qcom-caf/sm8150/media" name="OmegaBeam69/hardware_qcom-caf_sm8150_media.git" remote="hub" revision="fiften" -->
+<remove-project name="LineageOS/android_hardware_qcom_media" />
+<project path="hardware/qcom-caf/sm8150/media" name="LineageOS/android_hardware_qcom_media.git" remote="hub" revision="lineage-22.2-caf-sm8150"/>
 
- <!--Hardware Xiaomi-->
+<!--Hardware Xiaomi-->
 <project path="hardware/xiaomi" name="OmegaBeam69/android_hardware_xiaomi.git" remote="hub" revision="15.0" />
+
 <!--Paranoid Sense-->
 <remove-project name="packages_apps_ParanoidSense" />
 <project path="packages/apps/ParanoidSense" name="OmegaBeam69/packages_apps_ParanoidSense.git" remote="hub" revision="fifteen" />
+
 </manifest>
