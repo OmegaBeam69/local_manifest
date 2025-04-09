@@ -24,7 +24,7 @@
 <project path="hardware/qcom-caf/sm8150/media" name="LineageOS/android_hardware_qcom_media.git" remote="hub" revision="lineage-22.2-caf-sm8150"/>
 
 <!--Hardware Xiaomi-->
-<project path="hardware/xiaomi" name="OmegaBeam69/android_hardware_xiaomi.git" remote="hub" revision="15.0" />
+<project path="hardware/xiaomi" name="OmegaBeam69/android_hardware_xiaomi.git" remote="hub" revision="lineage-22.1" />
 
 <!--Paranoid Sense-->
 <remove-project name="packages_apps_ParanoidSense" />
